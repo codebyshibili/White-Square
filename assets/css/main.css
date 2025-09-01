@@ -12655,7 +12655,19 @@ body.tp-magic-cursor #magic-cursor {
   padding-left: 90px;
 }
 .tp-service-2-shape-img img {
-  animation: rotate2 8s linear infinite;
+  animation: bounce 2s ease-in-out infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0); /* at rest */
+  }
+  40% {
+    transform: translateY(-30px); /* jump up */
+  }
+  60% {
+    transform: translateY(-15px); /* smaller bounce */
+  }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .tp-service-2-shape-img {
