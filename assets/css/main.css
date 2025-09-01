@@ -11971,7 +11971,7 @@ body.tp-magic-cursor #magic-cursor {
 .tp-hero-4-thumb {
   overflow: hidden;
   position: relative;
-  width: 100%;
+  width: 95%;
   height: 755px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -11982,11 +11982,13 @@ body.tp-magic-cursor #magic-cursor {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-hero-4-thumb {
     height: 320px;
+    width: 100%;
   }
 }
 @media (max-width: 767px) {
   .tp-hero-4-thumb {
     height: 200px;
+    width: 100%;
   }
 }
 @media (max-width: 767px) {
